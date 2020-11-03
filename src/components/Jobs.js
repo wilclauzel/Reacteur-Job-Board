@@ -66,12 +66,12 @@ const data = [
   },
 ];
 
-// Code ok but with the warning : : Each child in a list should have a unique "key" prop
-// Mis en attente de l'avancement du cours
+// Code ok but put in stand by to wait the lesson
 // NB : Pas réussi avec une boucle for ....
 // const Jobs = () => {
 //   let jobs = data.map((elt) => (
 //     <Job
+//       key={elt.title} // this key property avoid to have the warning : Each child in a list should have a unique "key" prop
 //       className={elt.className}
 //       title={elt.title}
 //       contractType={elt.contractType}
